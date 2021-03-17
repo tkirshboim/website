@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 const samples = [
   {
     snippet: `// Given some classes 
-class Controller(val service : BusinessService) 
+class Controller(val service: BusinessService) 
 class BusinessService() 
 
 // just declare it 
@@ -23,11 +23,11 @@ val myModule = module {
   },
   {
     snippet: `// Controller & BusinessService are declared in a module
-class Controller(val service : BusinessService){ 
+class Controller(val service: BusinessService) { 
   
   fun hello() {
-      // service is ready to use
-      service.sayHello()
+    // service is ready to use
+    service.sayHello()
   }
 } `
   },
@@ -35,13 +35,13 @@ class Controller(val service : BusinessService){
     snippet: `// Just inject in a simple Activity 
 class MyActivity() : AppCompatActivity() {
 
-    // inject BusinessService into property
-    val service : BusinessService by inject()
+  // inject BusinessService into property
+  val service: BusinessService by inject()
 }`
   },
   {
     snippet: `// Injected by constructor
-class MyViewModel(val repo : MyRepository) : ViewModel()
+class MyViewModel(val repo: MyRepository) : ViewModel()
 
 // declared ViewModel using the viewModel keyword
 val myModule : Module = module {
@@ -53,7 +53,7 @@ val myModule : Module = module {
 class MyActivity() : AppCompatActivity() {
 
   // lazy inject MyViewModel
-  val myViewModel : MyViewModel by viewModel()
+  val myViewModel: MyViewModel by viewModel()
 }`
   }
 ]
@@ -61,7 +61,7 @@ class MyActivity() : AppCompatActivity() {
 const starts = [
   {
     label: 'Kotlin',
-    snippet: `fun main(vararg args : String) { 
+    snippet: `fun main(vararg args: String) { 
   // start Koin!
   startKoin {
     // declare modules
@@ -72,7 +72,7 @@ const starts = [
   {
     label: 'Android',
     snippet: `class MyApplication : Application() {
-  override fun onCreate(){
+  override fun onCreate() {
     super.onCreate()
     // start Koin!
     startKoin {
