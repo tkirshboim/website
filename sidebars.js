@@ -5,9 +5,9 @@ module.exports = {
   },
   docs: {
     Setup: ['setup/v2','setup/v3'],
-    'Core' : ['reference/introduction','reference/koin-core/dsl','reference/koin-core/definitions','reference/koin-core/modules','reference/koin-core/start-koin'
-    ,'reference/koin-core/koin-component','reference/koin-core/injection-parameters','reference/koin-core/setters','reference/koin-core/scopes','reference/koin-core/logging'
-    ,'reference/koin-core/properties','reference/koin-core/experimental'],
+    'Core' : ['reference/introduction','reference/koin-core/dsl','reference/koin-core/dsl-update','reference/koin-core/definitions','reference/koin-core/modules',
+    'reference/koin-core/start-koin','reference/koin-core/koin-component','reference/koin-core/injection-parameters','reference/koin-core/context-isolation',
+    'reference/koin-core/scopes','reference/koin-core/setters','reference/koin-core/logging' ,'reference/koin-core/properties'],
 
     'Tests' : ['reference/koin-test/testing','reference/koin-test/checkmodules'],
 
