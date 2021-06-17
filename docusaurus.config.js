@@ -28,6 +28,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/migration/intro',
+          activeBasePath: 'docs/migration',
+          label: 'Upgrade to 3.1.x',
+          position: 'left',
+        },
+        {
           to: 'docs/reference/introduction',
           activeBasePath: 'docs/reference',
           label: 'Documentation',
