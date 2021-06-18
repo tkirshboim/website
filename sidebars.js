@@ -14,6 +14,7 @@ module.exports = {
 
     'Android' : ['reference/koin-android/start','reference/koin-android/dsl','reference/koin-android/get-instances','reference/koin-android/scope',
     'reference/koin-android/viewmodel','reference/koin-android/fragment-factory','reference/koin-android/workmanager','reference/koin-android/compose'
+    ,'reference/koin-android/dsl-update'
     ],
 
     'Ktor' : ['reference/koin-ktor/ktor'],
