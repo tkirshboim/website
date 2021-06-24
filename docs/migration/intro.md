@@ -2,7 +2,7 @@
 title: Koin Migration Guide
 ---
 
-## JCenter Shutdown & Maven Central
+## Maven Central & New Group Id
 
 ## Koin Versions - v2 & v3
 
