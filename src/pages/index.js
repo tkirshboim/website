@@ -17,9 +17,10 @@ class BusinessService()
 
 // just declare it 
 val myModule = module { 
-  single<Controller>()
-  single<BusinessService>()
-} `
+  single { Controller(get()) }
+  single { BusinessService() }
+}
+`
   },
   {
     snippet: `// Controller & BusinessService are declared in a module
