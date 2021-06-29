@@ -28,8 +28,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/migration/intro',
-          activeBasePath: 'docs/migration',
+          to: 'docs/migration/maven',
+          activeBasePath: 'docs/maven',
           label: 'Upgrade to 3.1.x',
           position: 'left',
         },

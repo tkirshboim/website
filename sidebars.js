@@ -22,7 +22,7 @@ module.exports = {
   },
   migration: {
     Setup: ['setup/v2','setup/v3'],
-    'Migration Guides': ['migration/intro'],
+    'Migration Guides': ['migration/maven','migration/migrate','migration/issues'],
   },
   resources: {
     Resources: ['resources/index','resources/articles','resources/videos'],
